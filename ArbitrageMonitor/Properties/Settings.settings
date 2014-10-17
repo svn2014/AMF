@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ArbitrageMonitor.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Commision" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.0003</Value>
+    </Setting>
+    <Setting Name="IsHedge" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="HedgeIntRate" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.086</Value>
+    </Setting>
+    <Setting Name="HedgeCode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">510300</Value>
+    </Setting>
+    <Setting Name="Threshold" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.01</Value>
+    </Setting>
+    <Setting Name="ShowActiveEquity" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ShowActiveBond" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ShowPassiveEquity" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ShowPassiveBond" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ConnString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.190.60.21)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=finchina1)));User Id=caihui;Password=caihui;</Value>
+    </Setting>
+    <Setting Name="Database" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Oracle</Value>
+    </Setting>
+    <Setting Name="HistoryDataVendor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CaiHui</Value>
+    </Setting>
+    <Setting Name="RealtimeDataVendor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Sina</Value>
+    </Setting>
+    <Setting Name="ShowOthers" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="RefreshFreq" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10000</Value>
+    </Setting>
+    <Setting Name="ShowActiveHybrid" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
